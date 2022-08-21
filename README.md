@@ -1,5 +1,5 @@
 # mega-checker
-check if mega link is valid or not
+check if mega link is dead or not
 
 ```python
 import re
