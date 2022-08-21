@@ -3,7 +3,7 @@ from random import randint
 regex = r"https:\/\/mega\.nz\/(file|folder)\/[\s\S]*#[\s\S]*"
 api = 'https://g.api.mega.co.nz'
 
-def isUrlValid(url):
+def isUrlValid(url: str) -> bool:
 
     match = re.match(regex, url)
     if not match and match.group() == url:
